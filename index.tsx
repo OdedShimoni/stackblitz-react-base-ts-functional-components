@@ -7,7 +7,7 @@ function App() {
   const [name, setName] = useState('Oded');
   return (
     <div>
-      <Hello {...{name}} />
+      <Hello {...{ name }} />
       <p>Start editing to see some magic happen :) Started editing</p>
     </div>
   );
